@@ -65,11 +65,13 @@ Google Agents ADK supports:
 ### 📂 Folder Structure (IMPORTANT)
 Your agent project should follow this structure:
 
+```
 parent_folder/
-│── agent_folder/ # Your agent's package directory
-│ ├── init.py # Must import agent.py
-│ ├── agent.py # Must define root_agent
-│ ├── .env # Environment variables
+│── agent_folder/     # Your agent's package directory
+│   ├── __init__.py   # Must import agent.py
+│   ├── agent.py      # Must define root_agent
+│   └── .env          # Environment variables
+```
 
 ### ⚙️ Environment Variables (`.env` file)
 GOOGLE_GENAI_USE_VERTEXAI=FALSE # We are not using Vertex AI Studio
