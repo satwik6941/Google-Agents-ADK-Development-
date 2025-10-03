@@ -19,8 +19,7 @@ This module will guide you through understanding workflow agents and how to buil
 
 ## 📖 Overview
 
-In the previous module, a first AI Agent was built and the LlmAgent was introduced.
-Now, it’s time to understand and build Workflow Agents.
+n previous modules, we built our first AI Agent and explored the LlmAgent deeply.
 This module explores three workflow agent types: Sequential Agents, Loop Agents, and Parallel Agents.
 
 ---
@@ -56,7 +55,7 @@ Workflow agents are specialized ADK components that orchestrate when and how sub
 
 Your agent project should follow this structure:
 
-```
+```bash
 
 parent_folder/
 │── agent_folder/     # Your agent's package directory
