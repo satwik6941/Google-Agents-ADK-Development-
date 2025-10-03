@@ -15,7 +15,7 @@ APP_NAME = "coding_app"
 USER_ID = "satwik"
 SESSION_ID = "session_12345"
 
-# Instantiate the shared LLM agent that ADK will run as the root agent.
+# Create a LLM agent that ADK will run as the root agent.
 root_agent = LlmAgent(
     name="coding_agent",
     model="gemini-2.0-flash",
