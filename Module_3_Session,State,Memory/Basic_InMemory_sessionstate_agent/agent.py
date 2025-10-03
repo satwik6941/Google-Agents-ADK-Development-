@@ -1,5 +1,9 @@
 """This is a basic AI Agent code where we create an InMemorySessionService, where we create and manage sessions and also we update the state of the agent.
-(There is no memory involved in this code)."""
+(There is no memory involved in this code).
+
+Another note:
+The state which is being updated in this code does not have the content of the previous messages, it is just has the latest response by the agent.
+"""
 
 import asyncio
 from google.adk.sessions import InMemorySessionService
