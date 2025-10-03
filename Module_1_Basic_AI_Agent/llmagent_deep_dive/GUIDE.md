@@ -75,6 +75,7 @@ parent_folder/
 ### ⚙️ Environment Variables (`.env` file)
 
 GOOGLE_GENAI_USE_VERTEXAI=FALSE # We are not using Vertex AI Studio
+
 GEMINI_API_KEY=YOUR_API_KEY # Your Gemini API Key
 
 👉 **Note:** Get your Gemini API Key from **Google AI Studio**.
