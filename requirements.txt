@@ -1,3 +1,5 @@
 google-adk
 python-dotenv
 pydantic
+litellm
+Ollama
