@@ -1,3 +1,5 @@
+"""This is the implementation of a custom agent with 3 sub-agents that analyzes user input sentiment and responds accordingly to the sentiment detected."""
+
 import logging
 from typing import AsyncGenerator
 from typing_extensions import override
